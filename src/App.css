@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: #f0f2f5;
+  min-width:210vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+}
+.form-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.1);
+  width: 400px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  background: #1abc9c;
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+  margin-left:12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a085;
+}
+@media screen and (width:  1040px){
+  .App{
+    min-width:240vh;
+  }
+  .form-container{
+    width:500px;
+    height:400px;
+    position:relative;
+    right:90px;
+  }
+}
